@@ -85,7 +85,7 @@ You can create your own AI enchancers to interact with your own AI services and 
 
 To Run the enchancers go to each particular readme instructions:
 
--   [Transcription](./ai-enchancers/description/README.md)
+-   [Transcription](./ai-enchancers/transcription/README.md)
 -   [Vision](./ai-enchancers/vision/README.md)
 -   [Diffusion](./ai-enchancers/diffusion/README.md)
 
