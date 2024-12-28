@@ -37,4 +37,4 @@ Ther server will be available for all LAN devices at `http://localhost:[specifie
 
 # License
 
-MIT
+[Affero General Public License v3.0](./LICENSE)
