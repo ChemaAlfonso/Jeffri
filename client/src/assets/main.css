@@ -1,0 +1,247 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--primary-50: 242 249 249;
+	--primary-100: 221 239 240;
+	--primary-200: 191 224 226;
+	--primary-300: 146 202 206;
+	--primary-400: 95 170 177;
+	--primary-500: 67 142 150;
+	--primary-600: 59 117 127;
+	--primary-700: 53 97 105;
+	--primary-800: 50 81 88;
+	--primary-900: 45 70 76;
+	--primary-950: 26 44 50;
+    
+	--surface-0: 255 255 255;
+	--surface-50: 245 245 246;
+	--surface-100: 230 230 231;
+	--surface-200: 207 207 210;
+	--surface-300: 174 174 178;
+	--surface-400: 133 134 139;
+	--surface-500: 106 107 112;
+	--surface-600: 91 91 95;
+	--surface-700: 77 77 81;
+	--surface-800: 68 69 70;
+	--surface-900: 60 60 61;
+	--surface-950: 24 24 25;
+}
+
+
+body[data-theme="navy"] {
+    --primary-50: 243 248 249;
+    --primary-100: 218 241 250;
+    --primary-200: 175 224 240;
+    --primary-300: 124 194 224;
+    --primary-400: 78 158 200;
+    --primary-500: 53 125 160;
+    --primary-600: 45 100 138;
+    --primary-700: 37 80 109;
+    --primary-800: 27 54 96;
+    --primary-900: 16 31 63;
+    --primary-950: 10 15 25;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="blue"] {
+    --primary-50: 246 249 251;
+    --primary-100: 227 240 253;
+    --primary-200: 197 217 250;
+    --primary-300: 156 181 248;
+    --primary-400: 120 142 245;
+    --primary-500: 98 105 228;
+    --primary-600: 81 77 214;
+    --primary-700: 62 57 191;
+    --primary-800: 40 39 136;
+    --primary-900: 24 25 86;
+    --primary-950: 10 10 30;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="indigo"] {
+    --primary-50: 249 250 251;
+    --primary-100: 237 239 251;
+    --primary-200: 212 212 248;
+    --primary-300: 186 174 239;
+    --primary-400: 164 133 227;
+    --primary-500: 140 96 221;
+    --primary-600: 115 68 209;
+    --primary-700: 87 51 186;
+    --primary-800: 60 35 134;
+    --primary-900: 34 23 72;
+    --primary-950: 22 13 40;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="cerise"] {
+    --primary-50: 253 252 250;
+    --primary-100: 250 239 237;
+    --primary-200: 246 203 218;
+    --primary-300: 236 158 203;
+    --primary-400: 234 111 172;
+    --primary-500: 223 75 145;
+    --primary-600: 201 50 114;
+    --primary-700: 162 38 98;
+    --primary-800: 119 27 69;
+    --primary-900: 73 17 28;
+    --primary-950: 17 17 17;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="cocoa"] {
+    --primary-50: 252 251 248;
+    --primary-100: 240 240 250;
+    --primary-200: 215 215 240;
+    --primary-300: 171 174 232;
+    --primary-400: 128 128 208;
+    --primary-500: 101 93 176;
+    --primary-600: 104 67 142;
+    --primary-700: 130 48 108;
+    --primary-800: 90 35 78;
+    --primary-900: 57 21 49;
+    --primary-950: 12 12 12;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="gold"] {
+    --primary-50: 251 250 244;
+    --primary-100: 250 240 191;
+    --primary-200: 221 221 129;
+    --primary-300: 220 184 79;
+    --primary-400: 189 142 42;
+    --primary-500: 158 111 21;
+    --primary-600: 128 85 13;
+    --primary-700: 96 64 12;
+    --primary-800: 67 44 11;
+    --primary-900: 27 27 8;
+    --primary-950: 8 8 8;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="lemon"] {
+    --primary-50: 250 249 243;
+    --primary-100: 248 240 181;
+    --primary-200: 238 223 118;
+    --primary-300: 212 189 70;
+    --primary-400: 172 148 36;
+    --primary-500: 137 118 21;
+    --primary-600: 110 93 11;
+    --primary-700: 84 69 10;
+    --primary-800: 57 47 9;
+    --primary-900: 39 29 8;
+    --primary-950: 8 8 8;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}
+
+body[data-theme="green"] {
+    --primary-50: 242 246 243;
+    --primary-100: 223 240 230;
+    --primary-200: 197 230 197;
+    --primary-300: 172 203 148;
+    --primary-400: 106 171 98;
+    --primary-500: 37 144 60;
+    --primary-600: 31 122 47;
+    --primary-700: 29 93 36;
+    --primary-800: 21 64 29;
+    --primary-900: 15 39 23;
+    --primary-950: 7 7 7;
+    
+    --surface-0: 255 255 255;
+    --surface-50: 245 245 246;
+    --surface-100: 230 230 231;
+    --surface-200: 207 207 210;
+    --surface-300: 174 174 178;
+    --surface-400: 133 134 139;
+    --surface-500: 106 107 112;
+    --surface-600: 91 91 95;
+    --surface-700: 77 77 81;
+    --surface-800: 68 69 70;
+    --surface-900: 60 60 61;
+    --surface-950: 24 24 25;
+}

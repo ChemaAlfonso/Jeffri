@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    flux:
+        build: .
+        container_name: jeffri-diffusion-server
+        ports:
+            - '${EXTERNAL_PORT}:${PORT}'
+        env_file:
+            - .env
+        restart: unless-stopped
+        volumes:
+            - ./models:/app/models
+            - ./loras:/app/loras
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - driver: nvidia
+                          capabilities: [gpu]

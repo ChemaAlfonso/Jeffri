@@ -1,0 +1,653 @@
+{
+	"34": {
+		"es": "34",
+		"en": "34",
+		"fr": "34",
+		"it": "34",
+		"de": "34"
+	},
+	"123456789": {
+		"es": "123456789",
+		"en": "123456789",
+		"fr": "123456789",
+		"it": "123456789",
+		"de": "123456789"
+	},
+	"Actions": {
+		"es": "Acciones",
+		"en": "Actions",
+		"fr": "Actions",
+		"it": "Azioni",
+		"de": "Aktionen"
+	},
+	"Add a new handler": {
+		"es": "Añadir un nuevo handler",
+		"en": "Add a new handler",
+		"fr": "Ajouter un nouveau handler",
+		"it": "Aggiungi un nuovo handler",
+		"de": "Fügen Sie einen neuen Handler hinzu."
+	},
+	"Add bot": {
+		"es": "Añadir bot",
+		"en": "Add bot",
+		"fr": "Ajouter un bot",
+		"it": "Aggiungi bot",
+		"de": "Add bot"
+	},
+	"AI model": {
+		"es": "Modelo de IA",
+		"en": "AI model",
+		"fr": "modèle d'IA",
+		"it": "Modello di intelligenza artificiale",
+		"de": "AI-Modell"
+	},
+	"Allow list for": {
+		"es": "Lista de permitidos para",
+		"en": "Allow list for",
+		"fr": "Liste blanche pour",
+		"it": "Elenco di autorizzazione per",
+		"de": "Erlauben Liste für"
+	},
+	"Allow list of handlers that can interact with the bot. If the list is empty, all handlers can interact with the bot. If the list is not empty, only the handlers in the list can interact with the bot.": {
+		"es": "Lista de handlers permitidos que pueden interactuar con el bot. Si la lista está vacía, todos los controladores pueden interactuar con el bot. Si la lista no está vacía, solo los controladores en la lista pueden interactuar con el bot.",
+		"en": "Allow list of handlers that can interact with the bot. If the list is empty, all handlers can interact with the bot. If the list is not empty, only the handlers in the list can interact with the bot.",
+		"fr": "Liste blanche des handlers qui peuvent interagir avec le bot. Si la liste est vide, tous les gestionnaires peuvent interagir avec le bot. Si la liste n'est pas vide, seuls les gestionnaires de la liste peuvent interagir avec le bot.",
+		"it": "Consenti l'elenco dei handlers che possono interagire con il bot. Se l'elenco è vuoto, tutti i gestori possono interagire con il bot. Se l'elenco non è vuoto, solo i gestori nell'elenco possono interagire con il bot.",
+		"de": "Erlauben Sie eine Liste von Handlern, die mit dem Bot interagieren können. Wenn die Liste leer ist, können alle Handler mit dem Bot interagieren. Wenn die Liste nicht leer ist, können nur die Handler in der Liste mit dem Bot interagieren."
+	},
+	"Already exists": {
+		"es": "Ya existe",
+		"en": "Already exists",
+		"fr": "Existe déjà",
+		"it": "Esiste già",
+		"de": "Existiert bereits"
+	},
+	"and will answer messages": {
+		"es": "y responderá mensajes",
+		"en": "and will answer messages",
+		"fr": "et répondra aux messages",
+		"it": "and will answer messages",
+		"de": "und wird Nachrichten beantworten"
+	},
+	"and will not anwer messages": {
+		"es": "y no responderá mensajes",
+		"en": "and will not answer messages",
+		"fr": "et ne répondra pas aux messages",
+		"it": "and will not anwer messages",
+		"de": "und wird keine Nachrichten beantworten"
+	},
+	"Avatar": {
+		"es": "Avatar",
+		"en": "Avatar",
+		"fr": "Avatar",
+		"it": "Avatar",
+		"de": "Avatar"
+	},
+	"Bot connection started successfuly, please wait until bot is ready": {
+		"es": "Conexión del bot iniciada con éxito, por favor espere hasta que el bot esté listo",
+		"en": "Bot connection started successfully, please wait until bot is ready.",
+		"fr": "Connexion du bot commencée avec succès, veuillez patienter jusqu'à ce que le bot soit prêt.",
+		"it": "Connessione bot avviata con successo, attendere fino a quando il bot è pronto.",
+		"de": "Botverbindung erfolgreich gestartet, bitte warten Sie, bis der Bot bereit ist."
+	},
+	"Bot disconection started successfuly, please wait until bot is stopped": {
+		"es": "Desconexión del bot iniciada con éxito, por favor espera hasta que el bot se detenga.",
+		"en": "Bot disconection started successfuly, please wait until bot is stopped",
+		"fr": "La déconnexion du bot a commencé avec succès, veuillez attendre jusqu'à ce que le bot soit arrêté.",
+		"it": "Disconnessione del bot iniziata con successo, attendere fino a quando il bot è fermo.",
+		"de": "Bot-Disconnect erfolgreich gestartet, bitte warten, bis der Bot gestoppt ist."
+	},
+	"Bots": {
+		"es": "Bots",
+		"en": "Bots",
+		"fr": "Bots",
+		"it": "Bots",
+		"de": "Bots"
+	},
+	"Cancel": {
+		"es": "Cancelar",
+		"en": "Cancel",
+		"fr": "Annuler",
+		"it": "Annulla",
+		"de": "Stornieren"
+	},
+	"Cannot connect, please try again...": {
+		"es": "No se puede conectar, por favor inténtelo de nuevo...",
+		"en": "Cannot connect, please try again...",
+		"fr": "Impossible de se connecter, veuillez réessayer...",
+		"it": "Impossibile connettersi, riprova...",
+		"de": "Kann nicht verbinden, bitte versuchen Sie es erneut..."
+	},
+	"Cannot disconnect, please try again...": {
+		"es": "No se puede desconectar, por favor inténtelo de nuevo...",
+		"en": "Cannot disconnect, please try again...",
+		"fr": "Impossible de se déconnecter, veuillez réessayer...",
+		"it": "Impossibile disconnettersi, riprovare...",
+		"de": "Kann nicht trennen, bitte versuchen Sie es erneut..."
+	},
+	"Cannot login to Telegram, please retry...": {
+		"es": "No se puede iniciar sesión en Telegram, por favor inténtelo de nuevo...",
+		"en": "Cannot login to Telegram, please retry...",
+		"fr": "Cannot login to Telegram, please retry...",
+		"it": "Impossibile accedere a Telegram, riprova per favore...",
+		"de": "Cannot login to Telegram, please retry..."
+	},
+	"Cannot login to Whatsapp, please retry...": {
+		"es": "No se puede iniciar sesión en Whatsapp, por favor inténtelo de nuevo...",
+		"en": "Cannot login to Whatsapp, please retry...",
+		"fr": "Cannot login to Whatsapp, please retry...",
+		"it": "Non è possibile accedere a Whatsapp, per favore riprova...",
+		"de": "Kann mich nicht bei Whatsapp anmelden, bitte erneut versuchen..."
+	},
+	"Close session": {
+		"es": "Cerrar sesión",
+		"en": "Close session",
+		"fr": "Fermer la session",
+		"it": "Chiudi sessione",
+		"de": "Sitzung schließen"
+	},
+	"Configure": {
+		"es": "Configurar",
+		"en": "Configure",
+		"fr": "Configurer",
+		"it": "Configura",
+		"de": "Konfigurieren"
+	},
+	"Confirm": {
+		"es": "Confirmar",
+		"en": "Confirm",
+		"fr": "Confirmer",
+		"it": "Conferma",
+		"de": "Bestätigen"
+	},
+	"Connected": {
+		"es": "Conectado",
+		"en": "Connected",
+		"fr": "Connecté",
+		"it": "Connesso",
+		"de": "Verbunden"
+	},
+	"Contacts": {
+		"es": "Contactos",
+		"en": "Contacts",
+		"fr": "Contacts",
+		"it": "Contatti",
+		"de": "Kontakte"
+	},
+	"Content": {
+		"es": "Contenido",
+		"en": "Content",
+		"fr": "Contenu",
+		"it": "Contenuto",
+		"de": "Inhalt"
+	},
+	"Contexts": {
+		"es": "Contextos",
+		"en": "Contexts",
+		"fr": "Contextes",
+		"it": "Contesti",
+		"de": "Kontexte"
+	},
+	"Create": {
+		"es": "Crear",
+		"en": "Create",
+		"fr": "Créer",
+		"it": "Crea",
+		"de": "Erstellen"
+	},
+	"Custom contexts": {
+		"es": "Contextos personalizados",
+		"en": "Custom contexts",
+		"fr": "Contextes personnalisés",
+		"it": "Contesti personalizzati",
+		"de": "Benutzerdefinierte Kontexte"
+	},
+	"Deny list for": {
+		"es": "Lista de denegación para",
+		"en": "Deny list for",
+		"fr": "Liste de refus pour",
+		"it": "Elenco di divieto per",
+		"de": "Deny-Liste für"
+	},
+	"Deny list of handlers that cannot interact with the bot. If the list is empty, all handlers can interact with the bot. If the list is not empty, only the handlers not in the list can interact with the bot.": {
+		"es": "Lista de denegación de handlers que no pueden interactuar con el bot. Si la lista está vacía, todos los controladores pueden interactuar con el bot. Si la lista no está vacía, solo los controladores que no están en la lista pueden interactuar con el bot.",
+		"en": "Deny list of handlers that cannot interact with the bot. If the list is empty, all handlers can interact with the bot. If the list is not empty, only the handlers not in the list can interact with the bot.",
+		"fr": "Liste de refus des handlers qui ne peuvent pas interagir avec le bot. Si la liste est vide, tous les gestionnaires peuvent interagir avec le bot. Si la liste n'est pas vide, seuls les gestionnaires qui ne sont pas dans la liste peuvent interagir avec le bot.",
+		"it": "Elenco di negazione degli handler che non possono interagire con il bot. Se l'elenco è vuoto, tutti gli handler possono interagire con il bot. Se l'elenco non è vuoto, solo gli handler non presenti nell'elenco possono interagire con il bot.",
+		"de": "Ablehnungsliste von Handlern, die nicht mit dem Bot interagieren können. Wenn die Liste leer ist, können alle Handler mit dem Bot interagieren. Wenn die Liste nicht leer ist, können nur die Handler, die sich nicht in der Liste befinden, mit dem Bot interagieren."
+	},
+	"Disconnected": {
+		"es": "Desconectado",
+		"en": "Disconnected",
+		"fr": "Déconnecté",
+		"it": "Disconnesso",
+		"de": "Getrennt"
+	},
+	"Enabled": {
+		"es": "Habilitado",
+		"en": "Enabled",
+		"fr": "Activé",
+		"it": "Abilitato",
+		"de": "Aktiviert"
+	},
+	"Error": {
+		"es": "Error",
+		"en": "Error",
+		"fr": "Erreur",
+		"it": "Errore",
+		"de": "Fehler"
+	},
+	"Exclusive": {
+		"es": "Exclusivo",
+		"en": "Exclusive",
+		"fr": "Exclusif",
+		"it": "Esclusivo",
+		"de": "Exklusiv"
+	},
+	"Name": {
+		"es": "Nombre",
+		"en": "Name",
+		"fr": "Nom",
+		"it": "Nome",
+		"de": "Name"
+	},
+	"No more bots available": {
+		"es": "No hay más bots disponibles",
+		"en": "No more bots available",
+		"fr": "Plus de bots disponibles",
+		"it": "No più bot disponibili",
+		"de": "Keine weiteren Bots verfügbar"
+	},
+	"OTP code": {
+		"es": "OTP code",
+		"en": "OTP code",
+		"fr": "OTP code",
+		"it": "Codice OTP",
+		"de": "OTP-Code"
+	},
+	"Ready": {
+		"es": "Listo",
+		"en": "Ready",
+		"fr": "Prêt",
+		"it": "Pronto",
+		"de": "Bereit"
+	},
+	"Reduces the probability of generating nonsensical responses. A higher value (e.g. 100) will give more diverse responses, while a lower value (e.g. 10) will be more conservative.": {
+		"es": "Reduce la probabilidad de generar respuestas sin sentido. Un valor más alto (por ejemplo, 100) dará respuestas más diversas, mientras que un valor más bajo (por ejemplo, 10) será más conservador.",
+		"en": "Reduces the probability of generating nonsensical responses. A higher value (e.g. 100) will give more diverse responses, while a lower value (e.g. 10) will be more conservative.",
+		"fr": "Réduit la probabilité de générer des réponses nonsensiques. Une valeur plus élevée (par exemple, 100) donnera des réponses plus diverses, tandis qu'une valeur plus basse (par exemple, 10) sera plus conservatrice.",
+		"it": "Riduce la probabilità di generare risposte senza senso. Un valore più alto (ad esempio 100) darà risposte più diversificate, mentre un valore più basso (ad esempio 10) sarà più conservativo.",
+		"de": "Reduziert die Wahrscheinlichkeit, unsinnige Antworten zu erzeugen. Ein höherer Wert (z. B. 100) wird vielfältigere Antworten geben, während ein niedrigerer Wert (z. B. 10) konservativer sein wird."
+	},
+	"Remove": {
+		"es": "Eliminar",
+		"en": "Remove",
+		"fr": "Remove",
+		"it": "Rimuovere",
+		"de": "Entfernen"
+	},
+	"Required action": {
+		"es": "Acción requerida",
+		"en": "Required action",
+		"fr": "Action requise",
+		"it": "Azione richiesta",
+		"de": "Erforderliche Aktion"
+	},
+	"Save": {
+		"es": "Guardar",
+		"en": "Save",
+		"fr": "Sauvegarder",
+		"it": "Salva",
+		"de": "Speichern"
+	},
+	"Scan the QR code to login": {
+		"es": "Escanea el código QR para iniciar sesión",
+		"en": "Scan the QR code to login",
+		"fr": "Scannez le code QR pour vous connecter",
+		"it": "Scansiona il codice QR per accedere",
+		"de": "Scannen Sie den QR-Code, um sich anzumelden."
+	},
+	"Select a contact": {
+		"es": "Selecciona un contacto",
+		"en": "Select a contact",
+		"fr": "Sélectionnez un contact",
+		"it": "Seleziona un contatto",
+		"de": "Wählen Sie einen Kontakt aus"
+	},
+	"Select a type": {
+		"es": "Seleccionar un tipo",
+		"en": "Select a type",
+		"fr": "Sélectionnez un type",
+		"it": "Seleziona un tipo",
+		"de": "Wählen Sie einen Typ"
+	},
+	"Select contexts": {
+		"es": "Seleccionar contextos",
+		"en": "Select contexts",
+		"fr": "Sélectionner des contextes",
+		"it": "Seleziona contesti",
+		"de": "Kontexte auswählen"
+	},
+	"Select the bot type": {
+		"es": "Seleccione el tipo de bot",
+		"en": "Select the bot type",
+		"fr": "Sélectionnez le type de bot",
+		"it": "Seleziona il tipo di bot",
+		"de": "Wählen Sie den Bot-Typ"
+	},
+	"Set from existing contact": {
+		"es": "Conjunto de contacto existente",
+		"en": "Set from existing contact",
+		"fr": "Définir à partir du contact existant",
+		"it": "Impostato da contatto esistente",
+		"de": "Set von bestehendem Kontakt"
+	},
+	"Settings": {
+		"es": "Ajustes",
+		"en": "Settings",
+		"fr": "Paramètres",
+		"it": "Impostazioni",
+		"de": "Einstellungen"
+	},
+	"Sign out": {
+		"es": "Cerrar sesión",
+		"en": "Sign out",
+		"fr": "Déconnexion",
+		"it": "Disconnettersi",
+		"de": "Abmelden"
+	},
+	"Stopped": {
+		"es": "Detenido",
+		"en": "Stopped",
+		"fr": "Arrêté",
+		"it": "Fermato",
+		"de": "Gestoppt"
+	},
+	"Telegram password": {
+		"es": "Contraseña de Telegram",
+		"en": "Telegram password",
+		"fr": "Mot de passe Telegram",
+		"it": "Telegram password",
+		"de": "Telegram-Passwort"
+	},
+	"Temperature": {
+		"es": "Temperatura",
+		"en": "Temperature",
+		"fr": "Température",
+		"it": "Temperatura",
+		"de": "Temperatur"
+	},
+	"The bot is": {
+		"es": "El bot está",
+		"en": "The bot is",
+		"fr": "Le bot est",
+		"it": "Il bot è",
+		"de": "Der Bot ist"
+	},
+	"The handler is already in the allow list, skipping...": {
+		"es": "El handler ya está en la lista de permitidos, saltando...",
+		"en": "The handler is already in the allow list, skipping...",
+		"fr": "Le handler est déjà dans la liste autorisée, sautant...",
+		"it": "The handler is already in the allow list, skipping...",
+		"de": "Der Handler ist bereits in der Erlaubenliste, überspringen..."
+	},
+	"The phone number of the user.": {
+		"es": "El número de teléfono del usuario.",
+		"en": "El número de teléfono del usuario.",
+		"fr": "Le numéro de téléphone de l'utilisateur.",
+		"it": "Il numero di telefono dell'utente.",
+		"de": "Die Telefonnummer des Benutzers."
+	},
+	"The temperature controls the randomness of the responses generated by the model. A low value will generate more predictable responses, while a high value will generate more creative responses.": {
+		"es": "La temperatura controla la aleatoriedad de las respuestas generadas por el modelo. Un valor bajo generará respuestas más predecibles, mientras que un valor alto generará respuestas más creativas.",
+		"en": "The temperature controls the randomness of the responses generated by the model. A low value will generate more predictable responses, while a high value will generate more creative responses.",
+		"fr": "La température contrôle le hasard des réponses générées par le modèle. Une faible valeur générera des réponses plus prévisibles, tandis qu'une valeur élevée générera des réponses plus créatives.",
+		"it": "La temperatura controlla la casualità delle risposte generate dal modello. Un valore basso genererà risposte più prevedibili, mentre un valore alto genererà risposte più creative.",
+		"de": "Die Temperatur steuert die Zufälligkeit der vom Modell erzeugten Antworten. Ein niedriger Wert erzeugt vorhersehbarere Antworten, während ein hoher Wert kreativere Antworten erzeugt."
+	},
+	"The username or phone number of the user.": {
+		"es": "El nombre de usuario o el número de teléfono del usuario.",
+		"en": "The username or phone number of the user.",
+		"fr": "Le nom d'utilisateur ou le numéro de téléphone de l'utilisateur.",
+		"it": "Il nome utente o il numero di telefono dell'utente.",
+		"de": "Der Benutzername oder die Telefonnummer des Benutzers."
+	},
+	"Top K": {
+		"es": "Top K",
+		"en": "Top K",
+		"fr": "Top K",
+		"it": "Top K",
+		"de": "Top K"
+	},
+	"Top P": {
+		"es": "Top P",
+		"en": "Top P",
+		"fr": "Top P",
+		"it": "Top P",
+		"de": "Top P"
+	},
+	"Turn off": {
+		"es": "Apagar",
+		"en": "Turn off",
+		"fr": "Éteindre",
+		"it": "Spegni",
+		"de": "Ausschalten"
+	},
+	"Turn on": {
+		"es": "Encender",
+		"en": "Turn on",
+		"fr": "Allumer",
+		"it": "Accendi",
+		"de": "Einschalten"
+	},
+	"Used in": {
+		"es": "Utilizado en",
+		"en": "Used in",
+		"fr": "Utilisé dans",
+		"it": "Usato in",
+		"de": "Verwendet in"
+	},
+	"Works together with top-k. A higher value (e.g. 0.95) will generate more diverse text, while a lower value (e.g. 0.5) will generate more focused and conservative text.": {
+		"es": "Trabaja junto con top-k. Un valor más alto (por ejemplo, 0.95) generará un texto más diverso, mientras que un valor más bajo (por ejemplo, 0.5) generará un texto más enfocado y conservador.",
+		"en": "Works together with top-k. A higher value (e.g. 0.95) will generate more diverse text, while a lower value (e.g. 0.5) will generate more focused and conservative text.",
+		"fr": "Travaille en collaboration avec top-k. Une valeur plus élevée (par exemple, 0,95) générera un texte plus varié, tandis qu'une valeur plus basse (par exemple, 0,5) générera un texte plus ciblé et conservateur.",
+		"it": "Lavora insieme a top-k. Un valore più alto (ad es. 0.95) genererà un testo più diversificato, mentre un valore più basso (ad es. 0.5) genererà un testo più focalizzato e conservatore.",
+		"de": "Arbeitet zusammen mit top-k. Ein höherer Wert (z.B. 0,95) erzeugt vielfältigere Texte, während ein niedrigerer Wert (z.B. 0,5) fokussiertere und konservativere Texte erzeugt."
+	},
+	"***********": {
+		"es": "Por favor, proporciona el texto que deseas traducir.",
+		"en": "Please provide the text you would like me to translate.",
+		"fr": "Please provide the text you would like me to translate.",
+		"it": "Please provide the text you would like me to translate into Italian.",
+		"de": "Please provide the text you would like me to translate."
+	},
+	"A memorable name": {
+		"es": "Un nombre memorable",
+		"en": "A memorable name",
+		"fr": "Un nom mémorable",
+		"it": "Un nome memorabile",
+		"de": "Ein denkwürdiger Name"
+	},
+	"Email": {
+		"es": "Email",
+		"en": "Email",
+		"fr": "E-mail",
+		"it": "Email",
+		"de": "E-Mail"
+	},
+	"Ensure you have the model configured in the server, else the bot will not work.": {
+		"es": "Asegúrate de tener el modelo configurado en el servidor, de lo contrario el bot no funcionará.",
+		"en": "Ensure you have the model configured in the server, else the bot will not work.",
+		"fr": "Assurez-vous que le modèle est configuré sur le serveur, sinon le bot ne fonctionnera pas.",
+		"it": "Assicurati di avere il modello configurato nel server, altrimenti il bot non funzionerà.",
+		"de": "Stellen Sie sicher, dass das Modell auf dem Server konfiguriert ist, sonst wird der Bot nicht funktionieren."
+	},
+	"Error saving settings": {
+		"es": "Error al guardar configuraciones",
+		"en": "Error saving settings",
+		"fr": "Erreur lors de l'enregistrement des paramètres",
+		"it": "Errore nel salvataggio delle impostazioni",
+		"de": "Fehler beim Speichern der Einstellungen"
+	},
+	"Here you should include the bot behaviour or data that you want the bot to use in responses while using this context.": {
+		"es": "Aquí deberías incluir el comportamiento del bot o los datos que deseas que el bot utilice en las respuestas mientras usa este contexto.",
+		"en": "Here you should include the bot behaviour or data that you want the bot to use in responses while using this context.",
+		"fr": "Ici, vous devriez inclure le comportement du bot ou les données que vous souhaitez que le bot utilise dans ses réponses tout en utilisant ce contexte.",
+		"it": "Qui dovresti includere il comportamento del bot o i dati che desideri che il bot utilizzi nelle risposte mentre utilizza questo contesto.",
+		"de": "Hier sollten Sie das Verhalten des Bots oder die Daten einfügen, die Sie möchten, dass der Bot in den Antworten verwendet, während Sie diesen Kontext nutzen."
+	},
+	"Jeffri": {
+		"es": "Jeffri",
+		"en": "Jeffri",
+		"fr": "Jeffri",
+		"it": "Jeffri",
+		"de": "Jeffri"
+	},
+	"Login": {
+		"es": "Iniciar sesión",
+		"en": "Login",
+		"fr": "Connexion",
+		"it": "Accesso",
+		"de": "Anmelden"
+	},
+	"New bot": {
+		"es": "Nuevo bot",
+		"en": "New bot",
+		"fr": "Nouveau bot",
+		"it": "Nuovo bot",
+		"de": "Neuer Bot"
+	},
+	"Password": {
+		"es": "Contraseña",
+		"en": "Password",
+		"fr": "Mot de passe",
+		"it": "Password",
+		"de": "Passwort"
+	},
+	"Phone": {
+		"es": "Teléfono",
+		"en": "Phone",
+		"fr": "Téléphone",
+		"it": "Telefono",
+		"de": "Telefon"
+	},
+	"Please ensure you have configured the AI settings before using the bots or the service will not work. Press OK to no remind you again.": {
+		"es": "Por favor, asegúrate de haber configurado los ajustes de IA antes de usar los bots o el servicio no funcionará. Presiona ACEPTAR para no recordártelo de nuevo.",
+		"en": "Please ensure you have configured the AI settings before using the bots or the service will not work. Press OK to no remind you again.",
+		"fr": "Veuillez vous assurer que vous avez configuré les paramètres de l'IA avant d'utiliser les bots, sinon le service ne fonctionnera pas. Appuyez sur OK pour ne plus vous rappeler.",
+		"it": "Si prega di assicurarsi di aver configurato le impostazioni dell'IA prima di utilizzare i bot o il servizio non funzionerà. Premi OK per non ricordartelo più.",
+		"de": "Bitte stellen Sie sicher, dass Sie die KI-Einstellungen konfiguriert haben, bevor Sie die Bots verwenden, da der Dienst sonst nicht funktioniert. Drücken Sie OK, um nicht noch einmal daran erinnert zu werden."
+	},
+	"Prefix": {
+		"es": "Prefijo",
+		"en": "Prefix",
+		"fr": "Préfixe",
+		"it": "Prefisso",
+		"de": "Präfix"
+	},
+	"Saved": {
+		"es": "Guardado",
+		"en": "Saved",
+		"fr": "Sauvegardé",
+		"it": "Salvato",
+		"de": "Gespeichert"
+	},
+	"Settings saved successfully": {
+		"es": "Configuraciones guardadas con éxito",
+		"en": "Settings saved successfully",
+		"fr": "Paramètres enregistrés avec succès",
+		"it": "Impostazioni salvate con successo",
+		"de": "Einstellungen erfolgreich gespeichert"
+	},
+	"Sign in": {
+		"es": "Iniciar sesión",
+		"en": "Sign in",
+		"fr": "Se connecter",
+		"it": "Accedi",
+		"de": "Anmelden"
+	},
+	"Sign up": {
+		"es": "Registrarse",
+		"en": "Sign up",
+		"fr": "Inscrivez-vous",
+		"it": "Iscriviti",
+		"de": "Anmelden"
+	},
+	"The context content": {
+		"es": "El contenido del contexto",
+		"en": "The context content",
+		"fr": "Le contenu du contexte",
+		"it": "Il contenuto del contesto",
+		"de": "Der Kontextinhalt"
+	},
+	"This context will be used only by the selected bots.": {
+		"es": "Este contexto solo será utilizado por los bots seleccionados.",
+		"en": "This context will be used only by the selected bots.",
+		"fr": "Ce contexte ne sera utilisé que par les bots sélectionnés.",
+		"it": "Questo contesto sarà utilizzato solo dai bot selezionati.",
+		"de": "Dieser Kontext wird nur von den ausgewählten Bots verwendet."
+	},
+	"This will not affect the context itself, but it will be used to identify it in the list.": {
+		"es": "Esto no afectará el contexto en sí, pero se utilizará para identificarlo en la lista.",
+		"en": "This will not affect the context itself, but it will be used to identify it in the list.",
+		"fr": "Cela n'affectera pas le contexte lui-même, mais cela sera utilisé pour l'identifier dans la liste.",
+		"it": "Questo non influenzerà il contesto stesso, ma sarà utilizzato per identificarlo nella lista.",
+		"de": "Dies wird den Kontext selbst nicht beeinflussen, aber es wird verwendet, um ihn in der Liste zu identifizieren."
+	},
+	"Try to keep it short, concise and related to one topic. If you need to add more you can create more contexts and enable them as little pieces to the bot.": {
+		"es": "Intenta mantenerlo breve, conciso y relacionado con un solo tema. Si necesitas agregar más, puedes crear más contextos y habilitarlos como pequeñas piezas para el bot.",
+		"en": "Try to keep it short, concise and related to one topic. If you need to add more you can create more contexts and enable them as little pieces to the bot.",
+		"fr": "Essayez de le garder court, concis et lié à un seul sujet. Si vous devez ajouter plus, vous pouvez créer plus de contextes et les activer comme de petits morceaux pour le bot.",
+		"it": "Prova a mantenerlo breve, conciso e legato a un solo argomento. Se hai bisogno di aggiungere altro, puoi creare più contesti e attivarli come piccoli pezzi per il bot.",
+		"de": "Versuchen Sie, es kurz, prägnant und themenbezogen zu halten. Wenn Sie mehr hinzufügen müssen, können Sie mehr Kontexte erstellen und diese als kleine Teile für den Bot aktivieren."
+	},
+	"Username": {
+		"es": "Nombre de usuario",
+		"en": "Username",
+		"fr": "Nom d'utilisateur",
+		"it": "Nome utente",
+		"de": "Benutzername"
+	},
+	"IMPORTANT: Despite you attach a context to a contact, the context will not be used with a bot if it is not enabled and included here for use with the bot.": {
+		"es": "IMPORTANTE: A pesar de que adjuntes un contexto a un contacto, el contexto no se usará con un bot si no está habilitado e incluido aquí para su uso con el bot.",
+		"en": "IMPORTANT: Despite you attach a context to a contact, the context will not be used with a bot if it is not enabled and included here for use with the bot.",
+		"fr": "IMPORTANT : Malgré que vous attachiez un contexte à un contact, le contexte ne sera pas utilisé avec un bot s'il n'est pas activé et inclus ici pour une utilisation avec le bot.",
+		"it": "IMPORTANTE: Nonostante tu associ un contesto a un contatto, il contesto non sarà utilizzato con un bot se non è abilitato e incluso qui per l'uso con il bot.",
+		"de": "WICHTIG: Obwohl Sie einen Kontext zu einem Kontakt hinzufügen, wird der Kontext nicht mit einem Bot verwendet, wenn er nicht aktiviert und hier zur Verwendung mit dem Bot eingeschlossen ist."
+	},
+	"No contacts available": {
+		"es": "No hay contactos disponibles",
+		"en": "No contacts available",
+		"fr": "Aucun contact disponible",
+		"it": "Nessun contatto disponibile",
+		"de": "Keine Kontakte verfügbar"
+	},
+	"No contacts found": {
+		"es": "No se encontraron contactos",
+		"en": "No contacts found",
+		"fr": "Aucun contact trouvé",
+		"it": "Nessun contatto trovato",
+		"de": "Keine Kontakte gefunden"
+	},
+	"No contexts available": {
+		"es": "No hay contextos disponibles",
+		"en": "No contexts available",
+		"fr": "Aucun contexte disponible",
+		"it": "Nessun contesto disponibile",
+		"de": "Keine Kontexte verfügbar"
+	},
+	"No contexts found": {
+		"es": "No se encontraron contextos",
+		"en": "No contexts found",
+		"fr": "Aucun contexte trouvé",
+		"it": "Nessun contesto trovato",
+		"de": "Keine Kontexte gefunden"
+	},
+	"No models found": {
+		"es": "No se encontraron modelos",
+		"en": "No models found",
+		"fr": "Aucun modèle trouvé",
+		"it": "Nessun modello trovato",
+		"de": "Keine Modelle gefunden"
+	}
+}

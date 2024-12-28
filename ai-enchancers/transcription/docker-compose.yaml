@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+    whisper:
+        build: .
+        container_name: jeffri-transcription-server
+        ports:
+            - '${EXTERNAL_PORT}:${PORT}'
+        env_file:
+            - .env
+        restart: unless-stopped
+        volumes:
+            # Whisper models, keep across restarts
+            - ~/.cache/whisper:/app/models
+        # Comment out the following lines to run on CPU
+        deploy:
+            resources:
+                reservations:
+                    devices:
+                        - driver: nvidia
+                          capabilities: [gpu]

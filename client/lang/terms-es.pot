@@ -1,0 +1,452 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Project-Id-Version: Jeffri\n"
+"Report-Msgid-Bugs-To: Chema Alfonso <hola@chemaalfonso.com>\n"
+"Last-Translator: Chema Alfonso <hola@chemaalfonso.com>\n"
+"Language-Team: Chema Alfonso <hola@chemaalfonso.com>\n"
+"PO-Revision-Date: 2024-12-28 13:57+0100\n"
+"Language: es\n"
+
+#: src/views/LoginView.vue:23
+#: src/views/RegisterView.vue:54
+#: src/views/RegisterView.vue:66
+msgid "***********"
+msgstr ""
+
+#: src/views/RegisterView.vue:34
+msgid "123456789"
+msgstr ""
+
+#: src/views/RegisterView.vue:21
+msgid "34"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:29
+msgid "A memorable name"
+msgstr ""
+
+#: src/components/aiContexts/AiContextsList.vue:58
+#: src/components/contacts/ContactsList.vue:60
+msgid "Actions"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:25
+#: src/components/bots/config/BotConfigAccessList.vue:60
+msgid "Add a new handler"
+msgstr ""
+
+#: src/components/bots/AddBotForm.vue:2
+msgid "Add bot"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:6
+msgid "AI model"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:12
+#: src/components/bots/config/BotConfigAccessList.vue:25
+msgid "Allow list for"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:18
+#: src/components/bots/config/BotConfigAccessList.vue:31
+msgid "Allow list of handlers that can interact with the bot. If the list is empty, all handlers can interact with the bot. If the list is not empty, only the handlers in the list can interact with the bot."
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:119
+#: src/components/bots/config/BotConfigAccessList.vue:131
+#: src/components/bots/config/BotConfigAccessList.vue:176
+#: src/components/bots/config/BotConfigAccessList.vue:188
+msgid "Already exists"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:24
+#: src/components/bots/BotCard.vue:32
+msgid "and will answer messages"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:29
+#: src/components/bots/BotCard.vue:37
+msgid "and will not anwer messages"
+msgstr ""
+
+#: src/components/contacts/ContactsList.vue:23
+msgid "Avatar"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:77
+#: src/components/bots/BotCard.vue:85
+msgid "Bot connection started successfuly, please wait until bot is ready"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:107
+#: src/components/bots/BotCard.vue:99
+msgid "Bot disconection started successfuly, please wait until bot is stopped"
+msgstr ""
+
+#: src/components/layout/MainHeader.vue:32
+msgid "Bots"
+msgstr ""
+
+#: src/components/bots/logins/BotLoginTelegram.vue:55
+#: src/components/bots/logins/BotLoginWhatsapp.vue:44
+#: src/views/LoginView.vue:63
+msgid "Cancel"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:85
+#: src/components/bots/BotCard.vue:93
+msgid "Cannot connect, please try again..."
+msgstr ""
+
+#: src/components/bots/BotCard.vue:107
+#: src/components/bots/BotCard.vue:115
+msgid "Cannot disconnect, please try again..."
+msgstr ""
+
+#: src/components/bots/logins/BotLoginTelegram.vue:18
+#: src/components/bots/logins/BotLoginTelegram.vue:25
+msgid "Cannot login to Telegram, please retry..."
+msgstr ""
+
+#: src/components/bots/logins/BotLoginWhatsapp.vue:14
+msgid "Cannot login to Whatsapp, please retry..."
+msgstr ""
+
+#: src/components/bots/BotCard.vue:160
+#: src/components/bots/BotCard.vue:168
+msgid "Close session"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:140
+#: src/components/bots/BotCard.vue:148
+msgid "Configure"
+msgstr ""
+
+#: src/components/bots/logins/BotLoginTelegram.vue:56
+msgid "Confirm"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:76
+#: src/components/bots/BotCard.vue:84
+msgid "Connected"
+msgstr ""
+
+#: src/components/layout/MainHeader.vue:42
+msgid "Contacts"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:59
+msgid "Content"
+msgstr ""
+
+#: src/components/contacts/ContactsList.vue:37
+#: src/components/layout/MainHeader.vue:37
+msgid "Contexts"
+msgstr ""
+
+#: src/components/aiContexts/AiContextsList.vue:4
+#: src/components/contacts/ContactsList.vue:4
+msgid "Create"
+msgstr ""
+
+#: src/components/contacts/ContactSingle.vue:34
+msgid "Custom contexts"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:47
+#: src/components/bots/config/BotConfigAccessList.vue:82
+msgid "Deny list for"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:53
+#: src/components/bots/config/BotConfigAccessList.vue:88
+msgid "Deny list of handlers that cannot interact with the bot. If the list is empty, all handlers can interact with the bot. If the list is not empty, only the handlers not in the list can interact with the bot."
+msgstr ""
+
+#: src/components/bots/BotCard.vue:106
+#: src/components/bots/BotCard.vue:98
+msgid "Disconnected"
+msgstr ""
+
+#: src/views/RegisterView.vue:40
+msgid "Email"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:12
+#: src/components/aiContexts/AiContextsList.vue:32
+msgid "Enabled"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:8
+msgid "Ensure you have the model configured in the server, else the bot will not work."
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:120
+#: src/components/aiConfig/SettingsView.vue:85
+#: src/components/bots/BotCard.vue:106
+#: src/components/bots/BotCard.vue:114
+#: src/components/bots/BotCard.vue:84
+#: src/components/bots/BotCard.vue:92
+msgid "Error"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:121
+#: src/components/aiConfig/SettingsView.vue:86
+msgid "Error saving settings"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:7
+#: src/components/aiContexts/AiContextsList.vue:27
+msgid "Exclusive"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:54
+#: src/components/aiContexts/AiContext.vue:68
+#: src/components/aiContexts/AiContext.vue:71
+msgid "Here you should include the bot behaviour or data that you want the bot to use in responses while using this context."
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:35
+#: src/components/aiContexts/AiContext.vue:40
+msgid "IMPORTANT: Despite you attach a context to a contact, the context will not be used with a bot if it is not enabled and included here for use with the bot."
+msgstr ""
+
+#: src/views/RegisterView.vue:13
+msgid "Jeffri"
+msgstr ""
+
+#: src/views/LoginView.vue:36
+msgid "Login"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:17
+#: src/components/aiContexts/AiContextsList.vue:22
+#: src/components/contacts/ContactSingle.vue:11
+#: src/components/contacts/ContactsList.vue:31
+#: src/views/RegisterView.vue:12
+msgid "Name"
+msgstr ""
+
+#: src/components/bots/BotsView.vue:3
+msgid "New bot"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:44
+msgid "No contacts available"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:28
+msgid "No contacts found"
+msgstr ""
+
+#: src/components/contacts/ContactSingle.vue:127
+#: src/components/contacts/ContactsList.vue:154
+msgid "No contexts available"
+msgstr ""
+
+#: src/components/contacts/ContactSingle.vue:84
+#: src/components/contacts/ContactsList.vue:102
+msgid "No contexts found"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:34
+msgid "No models found"
+msgstr ""
+
+#: src/components/bots/AddBotForm.vue:22
+msgid "No more bots available"
+msgstr ""
+
+#: src/components/bots/logins/BotLoginTelegram.vue:3
+msgid "OTP code"
+msgstr ""
+
+#: src/views/LoginView.vue:21
+msgid "Password"
+msgstr ""
+
+#: src/views/RegisterView.vue:28
+msgid "Phone"
+msgstr ""
+
+#: src/views/HomeView.vue:21
+msgid "Please ensure you have configured the AI settings before using the bots or the service will not work. Press OK to no remind you again."
+msgstr ""
+
+#: src/views/RegisterView.vue:18
+msgid "Prefix"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:64
+#: src/components/bots/BotCard.vue:72
+msgid "Ready"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:30
+#: src/components/aiConfig/SettingsView.vue:49
+msgid "Reduces the probability of generating nonsensical responses. A higher value (e.g. 100) will give more diverse responses, while a lower value (e.g. 10) will be more conservative."
+msgstr ""
+
+#: src/components/bots/BotCard.vue:150
+#: src/components/bots/BotCard.vue:158
+msgid "Remove"
+msgstr ""
+
+#: src/components/bots/logins/BotLogin.vue:5
+msgid "Required action"
+msgstr ""
+
+#: src/components/contacts/ContactSingle.vue:51
+msgid "Save"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:113
+#: src/components/aiConfig/SettingsView.vue:78
+msgid "Saved"
+msgstr ""
+
+#: src/components/bots/logins/BotLoginWhatsapp.vue:4
+msgid "Scan the QR code to login"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:13
+msgid "Select a contact"
+msgstr ""
+
+#: src/components/bots/AddBotForm.vue:11
+msgid "Select a type"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:17
+#: src/components/contacts/ContactSingle.vue:42
+#: src/components/contacts/ContactsList.vue:51
+#: src/components/layout/LangSwitcher.vue:8
+msgid "Select contexts"
+msgstr ""
+
+#: src/components/bots/AddBotForm.vue:3
+msgid "Select the bot type"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:4
+msgid "Set from existing contact"
+msgstr ""
+
+#: src/components/layout/MainHeader.vue:47
+msgid "Settings"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:114
+#: src/components/aiConfig/SettingsView.vue:79
+msgid "Settings saved successfully"
+msgstr ""
+
+#: src/views/RegisterView.vue:45
+#: src/views/RegisterView.vue:78
+msgid "Sign in"
+msgstr ""
+
+#: src/components/layout/MainHeader.vue:52
+msgid "Sign out"
+msgstr ""
+
+#: src/views/LoginView.vue:21
+#: src/views/LoginView.vue:34
+#: src/views/RegisterView.vue:81
+msgid "Sign up"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:64
+#: src/components/bots/BotCard.vue:72
+msgid "Stopped"
+msgstr ""
+
+#: src/components/bots/logins/BotLoginTelegram.vue:10
+#: src/components/bots/logins/BotLoginTelegram.vue:17
+msgid "Telegram password"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:15
+msgid "Temperature"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:22
+#: src/components/bots/BotCard.vue:27
+#: src/components/bots/BotCard.vue:30
+#: src/components/bots/BotCard.vue:35
+msgid "The bot is"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:90
+msgid "The context content"
+msgstr ""
+
+#: src/components/bots/config/BotConfigAccessList.vue:120
+#: src/components/bots/config/BotConfigAccessList.vue:132
+#: src/components/bots/config/BotConfigAccessList.vue:177
+#: src/components/bots/config/BotConfigAccessList.vue:189
+msgid "The handler is already in the allow list, skipping..."
+msgstr ""
+
+#: src/components/bots/useHelp.ts:8
+msgid "The phone number of the user."
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:18
+#: src/components/aiConfig/SettingsView.vue:29
+msgid "The temperature controls the randomness of the responses generated by the model. A low value will generate more predictable responses, while a high value will generate more creative responses."
+msgstr ""
+
+#: src/components/bots/useHelp.ts:7
+msgid "The username or phone number of the user."
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:31
+#: src/components/aiContexts/AiContext.vue:36
+msgid "This context will be used only by the selected bots."
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:20
+msgid "This will not affect the context itself, but it will be used to identify it in the list."
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:27
+msgid "Top K"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:39
+msgid "Top P"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:61
+#: src/components/aiContexts/AiContext.vue:75
+#: src/components/aiContexts/AiContext.vue:78
+msgid "Try to keep it short, concise and related to one topic. If you need to add more you can create more contexts and enable them as little pieces to the bot."
+msgstr ""
+
+#: src/components/bots/BotCard.vue:128
+#: src/components/bots/BotCard.vue:136
+msgid "Turn off"
+msgstr ""
+
+#: src/components/bots/BotCard.vue:120
+#: src/components/bots/BotCard.vue:128
+msgid "Turn on"
+msgstr ""
+
+#: src/components/aiContexts/AiContext.vue:34
+#: src/components/aiContexts/AiContextsList.vue:38
+msgid "Used in"
+msgstr ""
+
+#: src/views/LoginView.vue:11
+#: src/views/LoginView.vue:13
+msgid "Username"
+msgstr ""
+
+#: src/components/aiConfig/SettingsView.vue:42
+#: src/components/aiConfig/SettingsView.vue:69
+msgid "Works together with top-k. A higher value (e.g. 0.95) will generate more diverse text, while a lower value (e.g. 0.5) will generate more focused and conservative text."
+msgstr ""

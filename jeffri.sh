@@ -1,0 +1,80 @@
+#!/bin/bash
+
+
+COLOR_BLUE='\033[0;34m'
+COLOR_GREEN='\033[0;32m'
+COLOR_YELLOW='\033[0;33m'
+COLOR_RED='\033[0;31m'
+COLOR_NC='\033[0m'
+
+action=$1
+if [ "$action" == "-h" ] || [ "$action" == "--help" ] || [ -z "$action" ]; then
+  action="help"
+fi
+
+if [ "$action" == "help" ]; then
+  echo -e "${COLOR_BLUE}Usage${COLOR_NC}: ./jeffri.sh [action]"
+  echo -e "${COLOR_BLUE}Actions${COLOR_NC}:"
+  echo -e "  ${COLOR_GREEN}help${COLOR_NC}: Display this help message"
+  echo -e "  ${COLOR_GREEN}translate${COLOR_NC}: Extract and generate translation terms/files"
+  echo -e "  ${COLOR_GREEN}build${COLOR_NC}: Build the project"
+  echo -e "  ${COLOR_YELLOW}dev${COLOR_NC}: Run the project in development mode"
+  echo -e "  ${COLOR_YELLOW}dev-server${COLOR_NC}: Run the server in development mode"
+  echo -e "  ${COLOR_YELLOW}dev-client${COLOR_NC}: Run the client in development mode"
+  echo -e "  ${COLOR_RED}run${COLOR_NC}: Run the project in production mode"
+  exit 0
+fi
+
+PROJECT_DIRNAME=$(dirname $(realpath $0))
+CLIENT_DIRNAME="$PROJECT_DIRNAME/client"
+SERVER_DIRNAME="$PROJECT_DIRNAME/server"
+DB_FILENAME="$SERVER_DIRNAME/data/database.db"
+
+if [ "$action" == "build" ]; then
+  # Check if database exists or create
+  if [ ! -f "$DB_FILENAME" ]; then
+	touch $DB_FILENAME
+  fi
+
+  # Client build
+  if [ -d "$CLIENT_DIRNAME/dist" ]; then
+	rm -rf $CLIENT_DIRNAME/dist
+  fi
+  cd $CLIENT_DIRNAME && npm install && npm run build
+  cd $PROJECT_DIRNAME && cp LICENSE $CLIENT_DIRNAME/dist/LICENSE
+
+  # Server build
+  if [ -d "$SERVER_DIRNAME/dist" ]; then
+	rm -rf $SERVER_DIRNAME/dist
+  fi
+  cd $SERVER_DIRNAME && npm install && npm run build
+  cd $PROJECT_DIRNAME && cp LICENSE $SERVER_DIRNAME/dist/LICENSE
+
+  # Docker build
+  docker-compose build
+
+  echo -e "${COLOR_GREEN}✓ Projects client and server built successfully${COLOR_NC}"
+
+elif [ "$action" == "translate" ]; then
+    cd $CLIENT_DIRNAME && npm run generate-translations-and-terms
+
+elif [ "$action" == "run" ]; then
+  cd $SERVER_DIRNAME && npm run start
+
+elif [ "$action" == "dev" ]; then
+	cd $CLIENT_DIRNAME && npm run dev & cd $SERVER_DIRNAME && npm run dev
+
+elif [ "$action" == "dev-server" ]; then
+  cd $SERVER_DIRNAME && npm run dev
+
+elif [ "$action" == "dev-client" ]; then
+  cd $CLIENT_DIRNAME && npm run dev
+
+elif [ "$action" == "install" ]; then
+  cd $CLIENT_DIRNAME && npm install && cd $SERVER_DIRNAME && npm install
+
+else
+  echo -e "${COLOR_RED}⨯ Invalid action <$action> ${COLOR_NC}\n"
+  ./jeffri.sh help
+  exit 1
+fi

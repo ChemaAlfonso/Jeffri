@@ -1,0 +1,99 @@
+require('@dotenvx/dotenvx').config()
+const express = require('express')
+const multer = require('multer')
+const { spawn } = require('child_process')
+const path = require('path')
+const fs = require('fs')
+
+const app = express()
+const port = process.env.PORT
+const language = process.env.LANGUAGE
+
+const uploadsDir = path.join(__dirname, 'uploads')
+
+if (!fs.existsSync(uploadsDir)) {
+	try {
+		fs.mkdirSync(uploadsDir)
+		console.log('Directy "uploads" created.')
+	} catch (err) {
+		console.error(`Error creating "uploads" directory: ${err}`)
+	}
+}
+
+const storage = multer.diskStorage({
+	destination: function (req, file, cb) {
+		cb(null, uploadsDir)
+	},
+	filename: function (req, file, cb) {
+		cb(null, file.originalname)
+	}
+})
+
+const upload = multer({ storage: storage })
+
+app.get('/status', (req, res) => {
+	res.json({ status: 'OK' })
+})
+
+app.post(
+	'/transcribe',
+	(req, res, next) => {
+		upload.single('file')(req, res, err => {
+			if (err) {
+				console.error(`Multer error: ${err}`)
+				return res.status(400).send(`Error loading files: ${err.message}`)
+			}
+			next()
+		})
+	},
+	(req, res) => {
+		if (!req.file) {
+			return res.status(400).send('No file uploaded.')
+		}
+
+		const audioFilePath = path.join(uploadsDir, req.file.originalname)
+
+		const pythonProcess = spawn('/opt/miniconda/bin/conda', [
+			'run',
+			'-n',
+			'whisper',
+			'python',
+			'src/transcribe.py',
+			audioFilePath,
+			language
+		])
+
+		let pythonOutput = ''
+
+		pythonProcess.stdout.on('data', data => {
+			pythonOutput += data.toString()
+		})
+
+		pythonProcess.stderr.on('data', data => {
+			console.error(`${data}`)
+		})
+
+		pythonProcess.on('close', code => {
+			if (code === 0) {
+				// Remove the temporary file after processing
+				fs.unlink(audioFilePath, err => {
+					if (err) {
+						console.error(`Error removing file: ${err}`)
+					}
+				})
+
+				res.json({ text: pythonOutput?.trim() || '' })
+			} else {
+				res.status(500).send('Error processing the audio file.')
+			}
+		})
+	}
+)
+
+app.get('/', (req, res) => {
+	res.redirect('/status')
+})
+
+app.listen(port, '0.0.0.0', () => {
+	console.log(`Server listening on http://0.0.0.0:${port}`)
+})

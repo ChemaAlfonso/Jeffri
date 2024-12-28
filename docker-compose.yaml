@@ -1,0 +1,21 @@
+version: '3.7'
+
+services:
+    jeffri:
+        build: .
+        env_file:
+            - .env
+        environment:
+            - NODE_ENV=production
+            - CLIENT_APP_PATH=/usr/app/client
+            - SQLITE_DB=/usr/app/server/data/database.db
+            - LOG_PATH=/usr/app/server/logs
+        volumes:
+            - jeffri_server_data:/usr/app/server/data
+            - ./server/data/database.db:/usr/app/server/data/database.db
+            - ./server/logs:/usr/app/server/logs
+        restart: unless-stopped
+        network_mode: 'host'
+
+volumes:
+    jeffri_server_data:
