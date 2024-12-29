@@ -35,6 +35,7 @@ import { AvatarProvider } from '../../../../../shared/domain/AvatarProvider.js'
 import { BOT_NAME } from '../../../../../bots/domain/Bot.js'
 import { message } from 'telegram/client/index.js'
 import { DiffuserQueue } from '../../DiffuserQueue.js'
+import { getEnv } from '../../../../../../getEnv.js'
 
 export class BaileysWhatsappMessenger extends MessengerProcessor implements Messenger {
 	private sock: WASocket | undefined
@@ -61,7 +62,8 @@ export class BaileysWhatsappMessenger extends MessengerProcessor implements Mess
 	async connect(user: User) {
 		const username = user.email.replace(/[^a-zA-Z0-9]/g, '')
 		this.user = user
-		this.authsDir = new URL(`../../../../../../../data/wasessions/${username}`, import.meta.url).pathname
+
+		this.authsDir = `${getEnv('BOTS_SESSIONS_PATH')}/wasessions/${username}`
 
 		// fetch latest version of WA Web
 		const { /*version,*/ isLatest } = await fetchLatestBaileysVersion()

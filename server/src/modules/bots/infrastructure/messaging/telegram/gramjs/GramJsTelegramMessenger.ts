@@ -42,7 +42,8 @@ export class GramJsTelegramMessenger extends MessengerProcessor implements Messe
 		const username = user.email.replace(/[^a-zA-Z0-9]/g, '')
 
 		this.user = user
-		this.authsDir = new URL(`../../../../../../../data/gramjssessions/${username}`, import.meta.url).pathname
+
+		this.authsDir = `${getEnv('BOTS_SESSIONS_PATH')}/gramjssessions/${username}`
 		this.session = new StringSession(await this.getStoredSession())
 		this.client = new TelegramClient(this.session, this.apiId, this.apiHash, {
 			connectionRetries: 5

@@ -10,6 +10,7 @@ services:
             - CLIENT_APP_PATH=/usr/app/client
             - SQLITE_DB=/usr/app/server/data/database.db
             - LOG_PATH=/usr/app/server/logs
+            - BOTS_SESSIONS_PATH=/usr/app/server/data
         volumes:
             - jeffri_server_data:/usr/app/server/data
             - ./server/data/database.db:/usr/app/server/data/database.db
