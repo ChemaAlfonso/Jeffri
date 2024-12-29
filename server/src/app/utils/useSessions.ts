@@ -46,18 +46,20 @@ export const useSessions = () => {
 
 		const { token, refreshToken } = sessionData
 
+		const secure = getEnv('REQUIRE_HTTPS_SIGN_IN') === 'true'
+
 		res.cookie('jeffriToken', token, {
 			domain: req.hostname,
 			path: '/',
 			httpOnly: true,
-			secure: getEnv('NODE_ENV') === 'production',
+			secure,
 			sameSite: 'strict',
 			maxAge: oneYear
 		}).cookie('jeffriRefreshToken', refreshToken, {
 			domain: req.hostname,
 			path: '/',
 			httpOnly: true,
-			secure: getEnv('NODE_ENV') === 'production',
+			secure,
 			sameSite: 'strict',
 			maxAge: oneYear
 		})
