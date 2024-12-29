@@ -207,7 +207,7 @@ export class BaileysWhatsappMessenger extends MessengerProcessor implements Mess
 		const isGroup = chatId.includes('-')
 
 		if (isGroup) {
-			this.logger.log(`[${this.botName()}] Group chat message, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Group chat message, skipping...`, 'info')
 			return null
 		}
 

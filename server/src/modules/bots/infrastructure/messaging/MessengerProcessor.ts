@@ -83,7 +83,7 @@ export abstract class MessengerProcessor implements Messenger {
 	// =========================================================
 	protected async onMessageReceived(rawMessage: unknown): Promise<void> {
 		try {
-			this.logger.log(`[${this.botName()}] New message received`, 'debug')
+			this.logger.log(`[${this.botName()}] New message received`, 'info')
 
 			const message = await this.parseMessageToMessage(rawMessage)
 
@@ -116,14 +116,14 @@ export abstract class MessengerProcessor implements Messenger {
 
 	private async shouldProcessMessage(message: Message): Promise<boolean> {
 		if (message.isBotMessage) {
-			this.logger.log(`[${this.botName()}] Message is from bot, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Message is from bot, skipping...`, 'info')
 			return false
 		}
 
 		const olderTimeToConsider = Date.now() - this.handleMessagesSinceNowMinus
 
 		if (message.timestamp < olderTimeToConsider) {
-			this.logger.log(`[${this.botName()}] Message is too old, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Message is too old, skipping...`, 'info')
 			return false
 		}
 
@@ -846,7 +846,7 @@ export abstract class MessengerProcessor implements Messenger {
 	private async processDiffusion(message: Message): Promise<void> {
 		// Prevent multiple diffusions at the same time
 		if (this.difusserQueue.isBusy()) {
-			this.logger.log(`[${this.botName()}] Diffusion already in progress, waiting to ending...`, 'info')
+			this.logger.log(`[${this.botName()}] Diffusion already in progress, waiting to ending...`, 'debug')
 
 			// Wait for the current diffusion to end
 			await this.difusserQueue.getDiffusionPromise()

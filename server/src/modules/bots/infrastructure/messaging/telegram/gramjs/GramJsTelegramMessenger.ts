@@ -120,7 +120,7 @@ export class GramJsTelegramMessenger extends MessengerProcessor implements Messe
 		const destiny = (await this.client?.getEntity(rawMessage.peerId)) as Api.User
 
 		if (!sender || !destiny) {
-			this.logger.log(`[${this.botName()}] Sender or destiny not found, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Sender or destiny not found, skipping...`, 'info')
 			return null
 		}
 
@@ -128,17 +128,17 @@ export class GramJsTelegramMessenger extends MessengerProcessor implements Messe
 		const senderIsPrivate = sender?.className === 'User' && !sender?.bot
 		const destinyIsPrivate = destiny?.className === 'User' && !destiny?.bot
 		if (!senderIsPrivate || !destinyIsPrivate) {
-			this.logger.log(`[${this.botName()}] Sender or destiny is not private, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Sender or destiny is not private, skipping...`, 'info')
 			return null
 		}
 
 		if (!sender.username && !sender.phone) {
-			this.logger.log(`[${this.botName()}] Sender username or phone not found, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Sender username or phone not found, skipping...`, 'info')
 			return null
 		}
 
 		if (!destiny.username && !destiny.phone) {
-			this.logger.log(`[${this.botName()}] Destiny username or phone not found, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Destiny username or phone not found, skipping...`, 'info')
 			return null
 		}
 
@@ -151,7 +151,7 @@ export class GramJsTelegramMessenger extends MessengerProcessor implements Messe
 		// Prevent sending messages to telegram bot
 		const senderIsTelegramBot = senderName.toLowerCase() === 'telegram'
 		if (senderIsTelegramBot) {
-			this.logger.log(`[${this.botName()}] Telegram bot message detected, skipping...`, 'debug')
+			this.logger.log(`[${this.botName()}] Telegram bot message detected, skipping...`, 'info')
 			return null
 		}
 
