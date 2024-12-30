@@ -47,8 +47,8 @@ export class BaileysWhatsappMessenger extends MessengerProcessor implements Mess
 	}
 
 	// Spam prevention
-	private minTimeToGenerateResponse = 1000 * 20
-	private maxTimeToGenerateResponse = 1000 * 30
+	private minTimeToGenerateResponse = 1000 * 5
+	private maxTimeToGenerateResponse = 1000 * 10
 
 	constructor(
 		readonly logger: Logger,
