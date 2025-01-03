@@ -412,7 +412,12 @@ export abstract class MessengerProcessor implements Messenger {
 		// Transcribe message attachments
 		if (!message.content.audios?.length) return
 
-		if (!this.messengerEnchancedServicesCapabilities.enableTranscriptions) return
+		if (!this.messengerEnchancedServicesCapabilities.enableTranscriptions) {
+			this.logger.log(`[${this.botName()}] Transcriptions are disabled, transcript skipped`, 'debug')
+			const cannotTranscribeText = `I sent you an audio but you cannot hear it so add to your response an apology telling me you cannot hear it and ask me if i can send you as text to proceed with the conversation.`
+			message.content.text = `${message.content.text}\n\n${cannotTranscribeText}`
+			return
+		}
 
 		const container = await asyncContainer()
 		const transcriber = container.get<MessageAttachmentTranscriber>('Chats.MessageAttachmentTranscriber')
@@ -441,7 +446,12 @@ export abstract class MessengerProcessor implements Messenger {
 		// Describe message image attachments
 		if (!message.content.images?.length) return
 
-		if (!this.messengerEnchancedServicesCapabilities.enableImagesVisor) return
+		if (!this.messengerEnchancedServicesCapabilities.enableImagesVisor) {
+			this.logger.log(`[${this.botName()}] Vision is disabled, visualization skipped`, 'debug')
+			const cannotVisualizeText = `I sent you an image but you cannot see it so add to your response an apology telling me you cannot see images and ask me if i can send you as text to proceed with the conversation.`
+			message.content.text = `${message.content.text}\n\n${cannotVisualizeText}`
+			return
+		}
 
 		const container = await asyncContainer()
 		const descriptor = container.get<MessageAttachmentVisor>('Chats.MessageAttachmentVisor')
