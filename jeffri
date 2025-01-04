@@ -13,7 +13,7 @@ if [ "$action" == "-h" ] || [ "$action" == "--help" ] || [ -z "$action" ]; then
 fi
 
 if [ "$action" == "help" ]; then
-  echo -e "${COLOR_BLUE}Usage${COLOR_NC}: ./jeffri.sh [action]"
+  echo -e "${COLOR_BLUE}Usage${COLOR_NC}: ./jeffri [action]"
   echo -e "${COLOR_BLUE}Actions${COLOR_NC}:"
   echo -e "  ${COLOR_GREEN}help${COLOR_NC}: Display this help message"
   echo -e "  ${COLOR_GREEN}translate${COLOR_NC}: Extract and generate translation terms/files"
@@ -75,6 +75,6 @@ elif [ "$action" == "install" ]; then
 
 else
   echo -e "${COLOR_RED}⨯ Invalid action <$action> ${COLOR_NC}\n"
-  ./jeffri.sh help
+  ./jeffri help
   exit 1
 fi

@@ -67,11 +67,11 @@ You can create your own AI enchancers to interact with your own AI services and 
 
 1. **Set the environment variables** in the `.env` based on your needs.
 
-2. **build**: Build the project using the Jeffri binary `./jeffri.sh build`.
+2. **build**: Build the project using the Jeffri binary `./jeffri build`.
 
 3. **start**: Start the project:
 
-    3.1 Using the Jeffri binary `./jeffri.sh start`.
+    3.1 Using the Jeffri binary `./jeffri start`.
 
     > This will start the client and server using node directly.
 
@@ -81,7 +81,7 @@ You can create your own AI enchancers to interact with your own AI services and 
 
 4. **Access the client**: Open the browser and go to `http://localhost:[your-selected-port]`.
 
-> Run `./jeffri.sh` to see the help and available commands.
+> Run `./jeffri` to see the help and available commands.
 
 To Run the enchancers go to each particular readme instructions:
 
@@ -183,19 +183,19 @@ There are **two types of contexts**:
 To install all dependencies across projects, use jeffri binary:
 
 ```bash
-./jeffri.sh install
+./jeffri install
 ```
 
 To start the development server (client and server):
 
 ```bash
-./jeffri.sh dev
+./jeffri dev
 ```
 
 To build the project:
 
 ```bash
-./jeffri.sh build
+./jeffri build
 ```
 
 ---
